@@ -1,0 +1,34 @@
+SETTINGS:
+    # number of concurrent threads
+    THREADS: 3
+    # number of retries for ANY action
+    ATTEMPTS: 3
+    # account range.
+    # BY DEFAULT: [0, 0] - all accounts
+    # [3, 5] - only 3 4 5 accounts
+    # [7, 7] - only 7 account
+    ACCOUNTS_RANGE: [0, 0]
+    # WORKS ONLY IF ACCOUNTS_RANGE IS [0, 0]
+    # exact accounts to use. 
+    # BY DEFAULT: [] - all accounts
+    # Example: [1, 4, 6] - bot will use only 1, 4 and 6 accounts
+    EXACT_ACCOUNTS_TO_USE: []
+    # pause between attempts
+    PAUSE_BETWEEN_ATTEMPTS: [3, 20]
+    # pause between swaps
+    PAUSE_BETWEEN_SWAPS: [3, 20]
+    # pause in seconds between accounts
+    RANDOM_PAUSE_BETWEEN_ACCOUNTS: [3, 30]
+    # pause in seconds between actions
+    RANDOM_PAUSE_BETWEEN_ACTIONS: [3, 30]
+    # random pause before start of every account
+    # to make sure that all accounts will be started at different times
+    RANDOM_INITIALIZATION_PAUSE: [5, 30]
+    # pause multiplier for browser actions
+    BROWSER_PAUSE_MULTIPLIER: 1.5
+
+    OS_MINT: True
+    # The address of the free mint contract
+    CONTRACT_ADDRESS: "0xe3FA8056001cD782B21bA69cb5ce4b0f7Fc0DB3d"
+    # Number of mint transactions for the account
+    NUMBER_OF_MINTES: 1
