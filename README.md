@@ -68,7 +68,7 @@ NUMBER_OF_MINTES - Количество транзакций которые сд
 
 Автор - https://t.me/paoneeee
 
-PS: Основу для скрипта взял у https://t.me/StarLabsTech
+Основу для скрипта взял у https://t.me/StarLabsTech
 
 
 
